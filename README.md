@@ -14,7 +14,13 @@ And run:
 
 	pod install
 
-After that, you can include it anywhere you need it by adding the following line at the top of your source file:
+### Manual
+
+Manually copy the source files in the SRGridLocation directory into your project.
+
+### Usage
+
+You can include SRGridLocation anywhere by adding the following line at the top of your source file:
 
 	#import <SRGridLocation/SRGridLocation.h>
 
