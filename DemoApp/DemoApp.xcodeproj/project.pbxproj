@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5006C828178485460008DB29 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5006C827178485460008DB29 /* SenTestingKit.framework */; };
+		5006C829178485460008DB29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A65C0F17847FEA00501CE2 /* UIKit.framework */; };
+		5006C82A178485460008DB29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A65C1117847FEA00501CE2 /* Foundation.framework */; };
+		5006C830178485460008DB29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5006C82E178485460008DB29 /* InfoPlist.strings */; };
+		5006C833178485460008DB29 /* SRGridLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5006C832178485460008DB29 /* SRGridLocationTests.m */; };
+		5006C83A1784B7EB0008DB29 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A65C391784801B00501CE2 /* CoreLocation.framework */; };
 		50A65C1017847FEA00501CE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A65C0F17847FEA00501CE2 /* UIKit.framework */; };
 		50A65C1217847FEA00501CE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A65C1117847FEA00501CE2 /* Foundation.framework */; };
 		50A65C1417847FEA00501CE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A65C1317847FEA00501CE2 /* CoreGraphics.framework */; };
@@ -25,7 +31,23 @@
 		50A65C3F178482F800501CE2 /* SRBasicAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A65C3E178482F800501CE2 /* SRBasicAnnotation.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5006C8381784B5C70008DB29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A65C0417847FEA00501CE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A65C0B17847FEA00501CE2;
+			remoteInfo = DemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5006C826178485460008DB29 /* SRGridLocationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRGridLocationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5006C827178485460008DB29 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5006C82D178485460008DB29 /* SRGridLocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SRGridLocationTests-Info.plist"; sourceTree = "<group>"; };
+		5006C82F178485460008DB29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5006C832178485460008DB29 /* SRGridLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRGridLocationTests.m; sourceTree = "<group>"; };
+		5006C834178485460008DB29 /* SRGridLocationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SRGridLocationTests-Prefix.pch"; sourceTree = "<group>"; };
 		50A65C0C17847FEA00501CE2 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A65C0F17847FEA00501CE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50A65C1117847FEA00501CE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +75,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5006C822178485460008DB29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5006C828178485460008DB29 /* SenTestingKit.framework in Frameworks */,
+				5006C829178485460008DB29 /* UIKit.framework in Frameworks */,
+				5006C82A178485460008DB29 /* Foundation.framework in Frameworks */,
+				5006C83A1784B7EB0008DB29 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50A65C0917847FEA00501CE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,10 +101,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5006C82B178485460008DB29 /* SRGridLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				5006C832178485460008DB29 /* SRGridLocationTests.m */,
+				5006C82C178485460008DB29 /* Supporting Files */,
+			);
+			path = SRGridLocationTests;
+			sourceTree = "<group>";
+		};
+		5006C82C178485460008DB29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5006C82D178485460008DB29 /* SRGridLocationTests-Info.plist */,
+				5006C82E178485460008DB29 /* InfoPlist.strings */,
+				5006C834178485460008DB29 /* SRGridLocationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		50A65C0317847FEA00501CE2 = {
 			isa = PBXGroup;
 			children = (
 				50A65C1517847FEA00501CE2 /* DemoApp */,
+				5006C82B178485460008DB29 /* SRGridLocationTests */,
 				50A65C0E17847FEA00501CE2 /* Frameworks */,
 				50A65C0D17847FEA00501CE2 /* Products */,
 			);
@@ -81,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				50A65C0C17847FEA00501CE2 /* DemoApp.app */,
+				5006C826178485460008DB29 /* SRGridLocationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +147,7 @@
 				50A65C0F17847FEA00501CE2 /* UIKit.framework */,
 				50A65C1117847FEA00501CE2 /* Foundation.framework */,
 				50A65C1317847FEA00501CE2 /* CoreGraphics.framework */,
+				5006C827178485460008DB29 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,11 +157,11 @@
 			children = (
 				50A65C1E17847FEA00501CE2 /* SRAppDelegate.h */,
 				50A65C1F17847FEA00501CE2 /* SRAppDelegate.m */,
-				50A65C2717847FEA00501CE2 /* MainStoryboard.storyboard */,
 				50A65C2A17847FEA00501CE2 /* SRViewController.h */,
 				50A65C2B17847FEA00501CE2 /* SRViewController.m */,
 				50A65C3D178482F800501CE2 /* SRBasicAnnotation.h */,
 				50A65C3E178482F800501CE2 /* SRBasicAnnotation.m */,
+				50A65C2717847FEA00501CE2 /* MainStoryboard.storyboard */,
 				50A65C3217847FFB00501CE2 /* SRGridLocation */,
 				50A65C1617847FEA00501CE2 /* Supporting Files */,
 			);
@@ -142,6 +197,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5006C825178485460008DB29 /* SRGridLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5006C837178485460008DB29 /* Build configuration list for PBXNativeTarget "SRGridLocationTests" */;
+			buildPhases = (
+				5006C821178485460008DB29 /* Sources */,
+				5006C822178485460008DB29 /* Frameworks */,
+				5006C823178485460008DB29 /* Resources */,
+				5006C824178485460008DB29 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5006C8391784B5C70008DB29 /* PBXTargetDependency */,
+			);
+			name = SRGridLocationTests;
+			productName = SRGridLocationTests;
+			productReference = 5006C826178485460008DB29 /* SRGridLocationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		50A65C0B17847FEA00501CE2 /* DemoApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50A65C2F17847FEA00501CE2 /* Build configuration list for PBXNativeTarget "DemoApp" */;
@@ -182,11 +256,20 @@
 			projectRoot = "";
 			targets = (
 				50A65C0B17847FEA00501CE2 /* DemoApp */,
+				5006C825178485460008DB29 /* SRGridLocationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5006C823178485460008DB29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5006C830178485460008DB29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50A65C0A17847FEA00501CE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,7 +284,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5006C824178485460008DB29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		5006C821178485460008DB29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5006C833178485460008DB29 /* SRGridLocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50A65C0817847FEA00501CE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,7 +324,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5006C8391784B5C70008DB29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A65C0B17847FEA00501CE2 /* DemoApp */;
+			targetProxy = 5006C8381784B5C70008DB29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		5006C82E178485460008DB29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5006C82F178485460008DB29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		50A65C1817847FEA00501CE2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -237,6 +360,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5006C835178485460008DB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoApp.app/DemoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRGridLocationTests/SRGridLocationTests-Prefix.pch";
+				INFOPLIST_FILE = "SRGridLocationTests/SRGridLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5006C836178485460008DB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoApp.app/DemoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRGridLocationTests/SRGridLocationTests-Prefix.pch";
+				INFOPLIST_FILE = "SRGridLocationTests/SRGridLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		50A65C2D17847FEA00501CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +475,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5006C837178485460008DB29 /* Build configuration list for PBXNativeTarget "SRGridLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5006C835178485460008DB29 /* Debug */,
+				5006C836178485460008DB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		50A65C0717847FEA00501CE2 /* Build configuration list for PBXProject "DemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -334,6 +500,7 @@
 				50A65C3117847FEA00501CE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
