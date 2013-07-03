@@ -27,9 +27,7 @@ You can include SRGridLocation anywhere by adding the following line at the top 
 Then, use the following methods to convert between coordinate types:
 
 	SRGridLocationCoordinate SRGridLocationCoordinateMake(SRGridLocationPosition x, SRGridLocationPosition y, SRGridLocationProjection projection)
-
 	SRGridLocationCoordinate SRGridLocationCoordinateFromCLLocationCoordinate2D(CLLocationCoordinate2D coordinate, SRGridLocationProjection projection)
-
 	CLLocationCoordinate2D CLLocationCoordinate2DFromSRGridLocationCoordinate(SRGridLocationCoordinate coordinate)
 
 There is also a convenience category for CLLocation to create one based on a grid coordinate. To include it:
