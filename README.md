@@ -2,7 +2,7 @@
 
 SRGridLocation provides a convenient way to convert between Swedish grid and GPS location coordinates.
 
-## Usage
+## Installation
 
 ### CocoaPods
 
@@ -18,7 +18,7 @@ And run:
 
 Manually copy the source files in the SRGridLocation directory into your project.
 
-### Usage
+## Usage
 
 You can include SRGridLocation anywhere by adding the following line at the top of your source file:
 
